@@ -1,7 +1,7 @@
 import axios from 'axios'
 
-// export const SERVICE_BASE_URL = "http://18.185.110.209:3001/"
-export const SERVICE_BASE_URL = "http://localhost:3001/"
+export const SERVICE_BASE_URL = "http://18.185.110.209:3001/"
+// export const SERVICE_BASE_URL = "http://localhost:3001/"
 
 export const HTTP = axios.create({ baseURL: SERVICE_BASE_URL , headers: {'content-type': 'application/json'}})
 export const EXTERNAL = axios.create()
